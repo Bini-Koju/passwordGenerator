@@ -50,12 +50,12 @@ function App() {
           </button>
         </div>
 
-        <div className="flex ">
-          <div className="mx-2">
+        <div className="flex flex-wrap mx-0 w-full">
+          <div className="mx-3">
             <input
               type="range"
               min={5}
-              max={20}
+              max={15}
               value={length}
               onChange={(e) => {
                 setLength(e.target.value);
